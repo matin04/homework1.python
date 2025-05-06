@@ -1,6 +1,14 @@
-# test1.3.9 /////////////////////////
+# test1.3.10 /////////////////////////
 
-x1=int(input())
-x2=int(input())
-print(abs(x2-x1))
+a=int(input())
+b=int(input())
+c=int(input())
+d=int()
+a==d
+b==a
+c==b
+d==c
+print(c)
+print(a)
+print(b)
 
