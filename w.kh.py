@@ -1,9 +1,7 @@
 # test3 /////////////////////////
 
 a=int(input())
-b=int(input())
-
-print(b%a)
+print(a%10)
 
 
 
