@@ -1,12 +1,13 @@
-# test1.4.14 /////////////////////////
+# test1.4.15 /////////////////////////
 
 
-s=int(input())
-x=s//6
-a=2*x
-print(f'Abdullo : {x}')
-print(f'Ahmadjon : {a*2}')
-print(f'Muhammad : {x}')
+n=int(input())
+z=(n-6)//4
+y=z+2
+x=y*2
+print(f'Basket1: {x}')
+print(f'Basket2: {y}')
+print(f'Basket3: {z}')
 
 
 
