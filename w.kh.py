@@ -1,7 +1,8 @@
-# test1.3.13 /////////////////////////
+# test1.3.14 /////////////////////////
 
-n=int(input())
-k=int(input())
-print(k//n)
+a=int(input())
+b=int(input())
+c=int(input())
+print((a+b+c)//100," ",(a+b+c)%100)
 
 
