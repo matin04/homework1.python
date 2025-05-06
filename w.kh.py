@@ -1,7 +1,11 @@
-# test3 /////////////////////////
+# test1.3.1 /////////////////////////
 
 a=int(input())
-print(a%10)
+b=int(input())
+print(f'{a*a} + {b*b} = {(a*a)+(b*b)}')
+print(f'{a*a} - {b*b} = {(a*a)-(b*b)}')
+print(f'{a*a} * {b*b} = {(a*a)*(b*b)}')
+print(f'{a*a} / {b*b} = {(a*a)/(b*b)}')
 
 
 
