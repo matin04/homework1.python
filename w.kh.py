@@ -1,9 +1,11 @@
-# test1.3.2 /////////////////////////
+# test1.3.3 /////////////////////////
 
-x=int(input())
-y=int(input())
-z=((2*(x*x*x))-(3.44*x*y)+(2.3*x*x)-(7.1*y)+2)
-print(z)
+a=int(input())
+b=int(input())
+c=(a*a)+(b*b)
+gip=c**0.5
+print(f'hypotenuse = {gip}')
+print(f'perimeter = {a+b+gip}')
 
 
 
