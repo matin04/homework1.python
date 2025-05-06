@@ -1,9 +1,6 @@
-# test1.3.8 /////////////////////////
+# test1.3.9 /////////////////////////
 
-a=int(input())
-b=a//1000
-c=a//100%10
-d=a//10%10
-e=a%10
-print(b+c+d+e)
+x1=int(input())
+x2=int(input())
+print(abs(x2-x1))
 
