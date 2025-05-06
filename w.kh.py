@@ -1,8 +1,8 @@
-# test1.4.4 /////////////////////////
+# test1.4.5 /////////////////////////
 
 
-a=int(input())
-b=int(input())
-print((a+b+abs(a-b))//2)
+s=int(input())
+print(f'In Month = {s*12}')
+print(f'In Day = {s*365}')
 
 
