@@ -1,9 +1,9 @@
-# test2 /////////////////////////
+# test3 /////////////////////////
 
 a=int(input())
 b=int(input())
 
-print(b//a)
+print(b%a)
 
 
 
