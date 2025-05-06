@@ -1,5 +1,10 @@
-# test1 /////////////////////////
+# test2 /////////////////////////
 
 a=int(input())
-print(f'The next number for the number {a} is {a+1}.')
-print(f'The previous number for the number {a} is {a-1}.')
+b=int(input())
+
+print(b//a)
+
+
+
+
