@@ -1,8 +1,11 @@
-# test1.3.14 /////////////////////////
+# test1.3.15 /////////////////////////
 
+d=int()
+n=int(input())
 a=int(input())
 b=int(input())
 c=int(input())
-print((a+b+c)//100," ",(a+b+c)%100)
+d=n*100
+print((d-(a+b+c))//100," ",(d-(a+b+c))%100)
 
 
