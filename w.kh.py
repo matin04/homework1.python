@@ -1,8 +1,9 @@
-# test1.4.1 /////////////////////////
+# test1.4.2 /////////////////////////
 
-y=int()
-x=int(input())
-y=17*(x*x)-(6*x)+13
-print(y)
+
+a=int(input())
+b=int(input())
+print(f'The quotient of the division is : {a//b}')
+print(f'The remainder of the division is : {a%b}')
 
 
