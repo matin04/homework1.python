@@ -1,14 +1,9 @@
-# test1.3.10 /////////////////////////
+# test1.3.11 /////////////////////////
 
-a=int(input())
-b=int(input())
-c=int(input())
-d=int()
-a==d
-b==a
-c==b
-d==c
-print(c)
-print(a)
-print(b)
+n=int(input())
+a=n//100
+b=n//10%10
+c=n%10
+print((b*100)+(a*10)+c)
+
 
