@@ -1,12 +1,12 @@
-# test1.3.3 /////////////////////////
+# test1.3.4 /////////////////////////
 
 a=int(input())
-b=int(input())
-c=(a*a)+(b*b)
-gip=c**0.5
-print(f'hypotenuse = {gip}')
-print(f'perimeter = {a+b+gip}')
-
-
+b=a//10000
+c=a//1000%10
+d=a//100%10
+e=a//10%10
+f=a%10
+print(f'The sum of the digits is : {b}+{c}+{d}+{e}+{f}={b+c+d+e+f}')
+print(f'The product of the digits is : {b}*{c}*{d}*{e}*{f}={b*c*d*e*f}')
 
 
