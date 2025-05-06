@@ -1,7 +1,8 @@
-# test1.4.6 /////////////////////////
+# test1.4.7 /////////////////////////
 
 
-n=int(input())
-print(3+abs(n%2))
+a=int(input())
+b=int(input())
+print(((a+b-abs(a-b))//2)," ",((a+b+abs(a-b))//2))
 
 
