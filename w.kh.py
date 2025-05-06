@@ -1,11 +1,8 @@
-# test1.3.15 /////////////////////////
+# test1.4.1 /////////////////////////
 
-d=int()
-n=int(input())
-a=int(input())
-b=int(input())
-c=int(input())
-d=n*100
-print((d-(a+b+c))//100," ",(d-(a+b+c))%100)
+y=int()
+x=int(input())
+y=17*(x*x)-(6*x)+13
+print(y)
 
 
